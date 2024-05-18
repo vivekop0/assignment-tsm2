@@ -1,7 +1,7 @@
 const cors = require('cors');
 const express = require('express');
 const app = express();
-require('./database/db');
+require('./db');
 const authRoutes = require('./routes/authRoutes');
 const taskRouter = require('./routes/taskRoutes');
 const morgan = require('morgan');
@@ -14,7 +14,7 @@ app.use('/task', taskRouter);
 
 // localhost:4000/auth/register
 
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
 	console.log(`server is running on port`, port);
