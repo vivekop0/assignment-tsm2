@@ -58,7 +58,7 @@ export const addTask = (task, id) => async (dispatch) => {
 		task,
 		id,
 	};
-	const response = await axios.post('http://localhost:4000/task/add', taskData);
+	const response = await axios.post('https://assignment-tsm2.onrender.com/task/add', taskData);
 	if (response) {
 		localStorage.setItem('task', JSON.stringify(response.data));
 
@@ -82,7 +82,7 @@ export const getAllTasks = (token, id) => async (dispatch) => {
 
 	try {
 		const response = await axios.get(
-			'http://localhost:4000/task/tasks',
+			'https://assignment-tsm2.onrender.com/task/tasks',
 			config
 		);
 
@@ -105,7 +105,7 @@ export const arrowClick = (item, string) => async () => {
 
 	try {
 		let response = await axios.put(
-			`http://localhost:4000/task/${taskData.id}`,
+			`https://assignment-tsm2.onrender.com/task/${taskData.id}`,
 			taskData
 		);
 
@@ -118,7 +118,7 @@ export const arrowClick = (item, string) => async () => {
 };
 
 export const deleteItem = (id) => async (dispatch) => {
-	let res = await axios.delete(`http://localhost:4000/task/${id}`);
+	let res = await axios.delete(`https://assignment-tsm2.onrender.com/task/${id}`);
 
 	if (res) {
 		dispatch(deleteSuccess());
@@ -132,7 +132,7 @@ export const deleteItem = (id) => async (dispatch) => {
 
 export const editTask = (id, updatedTask) => async (dispatch) => {
     try {
-        const response = await axios.put(`http://localhost:4000/task/edit/${id}`, { task: updatedTask });
+        const response = await axios.put(`https://assignment-tsm2.onrender.com/task/edit/${id}`, { task: updatedTask });
         
         if (response) {
             dispatch(editTaskSuccess(response.data));
