@@ -43,7 +43,7 @@ The Task Manager App is a simple yet efficient tool designed to help users manag
   - Tailwind: Frontend framework for responsive design
    - 
 
-- **Backend** (if applicable):
+- **Backend** :
   - node js express
   - mongodb
   - jwt bcrypt
