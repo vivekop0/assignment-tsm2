@@ -76,8 +76,9 @@ Contributions are welcome! Please follow these steps:
 
 ## Contact
 
-For any inquiries or support, please contact [your contact information].
-
+For any inquiries or support, please contact .
+viveksarkar00097@gmail.com
+7351216816
 ---
 
-Just replace `[https://assignment-tsm2.vercel.app/]` with the link to your demo. Let me know if you need further assistance!
+
