@@ -15,7 +15,7 @@ The Task Manager App is a simple yet efficient tool designed to help users manag
 - **Task Status**: Set the status of tasks to keep track of their progress.
 - **Dashboard**: Visualize task statuses for better organization and overview.
 - ![Screenshot (59)](https://git![Screenshot (59)](https://github.com/vivekop0/assignment-tsm2/assets/118190749/2e557c4d-bb90-4b64-9713-b2bd0d357d2b)
-hub.com/vivekop0/assignment-tsm2/assets/118190749/2e557c4d-bb90-4b64-9713-b2bd0d357d2b)
+
 
 
 ![Screenshot (61)](https://github.com/vivekop0/assignment-tsm2/assets/118190749/5c342ed8-05c4-4b1a-b831-419c49813e8b)
